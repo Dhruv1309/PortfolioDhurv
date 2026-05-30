@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-dhurv",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix jj ci && npm --prefix jj run build && rm -rf .vercel && cp -R jj/.vercel .vercel",
+    "check": "npm --prefix jj run check",
+    "dev": "npm --prefix jj run dev",
+    "preview": "npm --prefix jj run preview"
+  }
+}

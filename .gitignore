@@ -1,7 +1,4 @@
 node_modules
-.svelte-kit
 .vercel
-.netlify
-build
 .DS_Store
 *.local
